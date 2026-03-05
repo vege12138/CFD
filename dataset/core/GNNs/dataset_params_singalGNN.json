@@ -1,0 +1,42 @@
+{
+  "cora": {
+    "total_epochs": 40,
+    "lr": 0.0005,
+    "tau": 1.0
+  },
+  "citeseer": {
+    "total_epochs": 500,
+    "lr": 0.00001,
+    "tau": 1.0
+  },
+  "pubmed": {
+    "total_epochs": 60,
+    "lr": 0.0005,
+    "tau": 0.1
+  },
+  "wikics": {
+    "total_epochs": 100,
+    "lr": 0.001,
+    "tau": 0.1
+  },
+  "elephoto": {
+    "total_epochs": 100,
+    "lr": 0.005,
+    "tau": 0.1
+  },
+  "bookchild": {
+    "total_epochs": 100,
+    "lr": 0.01,
+    "tau": 0.1
+  },
+  "bookhis": {
+    "total_epochs": 180,
+    "lr": 0.0005,
+    "tau": 1.0
+  },
+  "default": {
+    "total_epochs": 500,
+    "lr": 0.0005,
+    "tau": 0.1
+  }
+}
