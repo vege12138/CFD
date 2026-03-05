@@ -11,7 +11,7 @@ import torch
 import numpy as np
 
 from core.data_utils.load import load_data
-from core.GNNs.trainer_tsne import GNNTrainer
+from core.GNNs.trainer import GNNTrainer
 from config import get_args
 
 import os
@@ -126,3 +126,4 @@ if __name__ == '__main__':
     args = get_args()
     args = apply_dataset_config(args, cfg_path="dataset/dataset_params.json")
     run(args)
+
